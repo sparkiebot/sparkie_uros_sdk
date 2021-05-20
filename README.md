@@ -70,8 +70,8 @@ Micro-ROS is precompiled for Raspberry Pi Pico in [`libmicroros`](libmicroros).
 If you want to compile it by yourself:
 
 ```bash
-docker pull microros/micro_ros_static_library_builder:rolling
-docker run -it --rm -v $(pwd):/project microros/micro_ros_static_library_builder:rolling
+docker pull microros/micro_ros_static_library_builder:galactic
+docker run -it --rm -v $(pwd):/project microros/micro_ros_static_library_builder:galactic
 ```
 
 Note that folders added to `microros_static_library/library_generation/extra_packages` and entries added to `microros_static_library/library_generation/extra_packages/extra_packages.repos` will be taken into account by this build system.
