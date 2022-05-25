@@ -2,8 +2,8 @@
 Changelog for package micro_ros_raspberrypicosdk
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2022-05-25)
+------------------
 * micro-ROS galactic Library auto-update 24-05-2022 06:13 (`#533 <https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/issues/533>`_)
 * micro-ROS galactic Library auto-update 20-05-2022 06:09 (`#526 <https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/issues/526>`_)
 * micro-ROS galactic Library auto-update 19-05-2022 06:09 (`#524 <https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/issues/524>`_)
