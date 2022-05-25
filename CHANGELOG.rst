@@ -2,8 +2,8 @@
 Changelog for package micro_ros_raspberrypicosdk
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2022-05-25)
+------------------
 * micro-ROS foxy Library auto-update 24-05-2022 06:09 (`#532 <https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/issues/532>`_)
 * micro-ROS foxy Library auto-update 19-05-2022 06:09 (`#523 <https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/issues/523>`_)
 * micro-ROS foxy Library auto-update 18-05-2022 06:09 (`#521 <https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/issues/521>`_)
