@@ -2,8 +2,8 @@
 Changelog for package micro_ros_raspberrypicosdk
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.1.0 (2023-06-12)
+------------------
 * micro-ROS iron Library auto-update 09-06-2023 12:57 (`#903 <https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/issues/903>`_)
 * Iron release (`#899 <https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/issues/899>`_)
 * micro-ROS rolling Library auto-update 06-06-2023 06:08 (`#896 <https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/issues/896>`_)
