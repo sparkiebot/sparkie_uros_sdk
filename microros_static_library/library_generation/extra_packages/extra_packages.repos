@@ -3,3 +3,7 @@ repositories:
     type: git
     url: https://github.com/ros-controls/control_msgs
     version: humble
+  irobot_create_msgs:
+    type: git
+    url: https://github.com/iRobotEducation/irobot_create_msgs
+    version: humble
