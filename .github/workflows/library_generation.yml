@@ -1,9 +1,9 @@
 name: Library generator
 on:
     workflow_dispatch:
-    inputs:
-      name:
-        description: "Manual trigger"
+      inputs:
+          name:
+            description: "Manual trigger"
     push:
       branches:
         - humble  # Sostituisci con il nome del tuo branch principale
