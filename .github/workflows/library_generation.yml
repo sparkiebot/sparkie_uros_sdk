@@ -1,5 +1,13 @@
 name: Library generator
-on: [push, workflow_dispatch]
+on:
+    workflow_dispatch:
+    inputs:
+      name:
+        description: "Manual trigger"
+    push:
+      branches:
+        - humble  # Sostituisci con il nome del tuo branch principale
+
 jobs:
   micro_ros_raspberrypi_pico_sdk_generate:
     runs-on: ubuntu-latest
