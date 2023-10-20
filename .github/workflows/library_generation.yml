@@ -1,5 +1,5 @@
 name: Library generator
-on: push
+on: [push, workflow_dispatch]
 jobs:
   micro_ros_raspberrypi_pico_sdk_generate:
     runs-on: ubuntu-latest
