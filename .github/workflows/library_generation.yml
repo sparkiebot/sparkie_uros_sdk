@@ -8,6 +8,9 @@ on:
       branches:
         - humble  # Sostituisci con il nome del tuo branch principale
 
+permissions:
+  contents: write
+
 jobs:
   micro_ros_raspberrypi_pico_sdk_generate:
     runs-on: ubuntu-latest
