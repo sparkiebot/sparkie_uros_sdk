@@ -37,7 +37,7 @@
                 "-UCLIENT_PROFILE_STREAM_FRAMING=ON",
                 "-DUCLIENT_PROFILE_CUSTOM_TRANSPORT=ON",
                 "-DUCLIENT_HARD_LIVELINESS_CHECK=ON",
-		"-DUCLIENT_PROFILE_MULTITHREAD=ON"
+		        "-DUCLIENT_PROFILE_MULTITHREAD=ON"
             ]
         },
         "rmw_microxrcedds": {

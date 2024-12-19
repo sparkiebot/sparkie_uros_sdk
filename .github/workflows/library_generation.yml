@@ -4,9 +4,6 @@ on:
       inputs:
           name:
             description: "Manual trigger"
-    push:
-      branches:
-        - humble  # Sostituisci con il nome del tuo branch principale
 
 permissions:
   contents: write
@@ -39,12 +36,12 @@ jobs:
           args: zip -qq -r libmicroros.zip libmicroros
       - name: Create Release
         id: create_release
-        uses: actions/create-release@v1
+        uses: comnoco/create-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: v.${{ github.sha }}
-          release_name: Release from commit ${{ github.sha }}
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
           body: |
             ${{ github.event.head_commit.message }}
           draft: false
